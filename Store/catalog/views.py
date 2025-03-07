@@ -1,7 +1,6 @@
-from django.shortcuts import render
 from django.http import HttpResponse, Http404, HttpResponseNotFound
 
-# Create your views here.
+
 def catalog(request, pk):
     if pk > 3:
         raise Http404()

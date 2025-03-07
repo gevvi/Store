@@ -1,7 +1,6 @@
-from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseNotFound
 from datetime import datetime
-# Create your views here.
+
 
 def cart_by_date(request, date_add):
     date_add_check = '2025-03-07'
