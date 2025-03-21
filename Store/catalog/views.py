@@ -6,6 +6,3 @@ def catalog(request, pk):
         raise Http404()
         #return HttpResponseNotFound('<h1>Ошибка 404</h1> <p>Возможно товар еще не добавлен</p>')
     return HttpResponse(f'<h1>Вывод товара {pk}</h1>')
-
-
-
